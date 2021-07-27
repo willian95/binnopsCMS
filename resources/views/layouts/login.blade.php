@@ -4,9 +4,9 @@
 <head>
     <title>Login</title>
     <meta charset="UTF-8">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ url('assets/images/favicons/apple-touch-icon.png') }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ url('assets/images/favicons/favicon-32x32.png') }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ url('assets/images/favicons/favicon-16x16.png') }}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ url('assets/assets/images/favicons/apple-touch-icon.png') }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url('assets/assets/images/favicons/favicon-32x32.png') }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url('assets/assets/images/favicons/favicon-16x16.png') }}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
