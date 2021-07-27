@@ -175,6 +175,20 @@ License: You must have a valid license purchased only from themeforest(the above
 									</div>
 								</li>
 
+								<li class="menu-item" aria-haspopup="true">
+									<a href="{{ route('video') }}" class="menu-link">
+										<i class="menu-icon flaticon-web"></i>
+										<span class="menu-text">Video</span>
+									</a>
+								</li>
+
+								<li class="menu-item" aria-haspopup="true">
+									<a href="{{ route('header') }}" class="menu-link">
+										<i class="menu-icon flaticon-web"></i>
+										<span class="menu-text">Banner</span>
+									</a>
+								</li>
+
 								
 							</ul>
 							<!--end::Menu Nav-->

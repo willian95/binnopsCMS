@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\VideoUpdateController;
+use App\Http\Controllers\HeaderController;
 
 
 /*
@@ -35,3 +37,9 @@ Route::get("/blogs/fetch/{page}", [BlogController::class, "fetch"])->middleware(
 Route::get("/blogs/edit/{id}", [BlogController::class, "edit"])->middleware("auth");
 
 Route::post("/upload/picture", [ImageController::class, "upload"]);
+
+Route::view("video", "video/index")->name("video");
+Route::post("video/update", [VideoUpdateController::class, "update"]);
+
+Route::view("header", "header/index")->name("header");
+Route::post("header/update", [HeaderController::class, "update"]);
