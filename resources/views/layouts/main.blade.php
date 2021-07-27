@@ -23,6 +23,9 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link rel="canonical" href="https://keenthemes.com/metronic" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+		<link rel="apple-touch-icon" sizes="152x152" href="{{ url('assets/images/favicons/apple-touch-icon.png') }}" />
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ url('assets/images/favicons/favicon-32x32.png') }}" />
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ url('assets/images/favicons/favicon-16x16.png') }}" />
 		<!--end::Fonts-->
 		<!--begin::Global Theme Styles(used by all pages)-->
 		<link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
@@ -175,6 +178,20 @@ License: You must have a valid license purchased only from themeforest(the above
 									</div>
 								</li>
 
+								<li class="menu-item" aria-haspopup="true">
+									<a href="{{ route('video') }}" class="menu-link">
+										<i class="menu-icon flaticon-web"></i>
+										<span class="menu-text">Video</span>
+									</a>
+								</li>
+
+								<li class="menu-item" aria-haspopup="true">
+									<a href="{{ route('header') }}" class="menu-link">
+										<i class="menu-icon flaticon-web"></i>
+										<span class="menu-text">Banner</span>
+									</a>
+								</li>
+
 								
 							</ul>
 							<!--end::Menu Nav-->
@@ -242,7 +259,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							<!--begin::Copyright-->
 							<div class="text-dark text-center" style="width: 100%;">
 								<span class="text-muted font-weight-bold mr-2">2020 - 2021©</span>
-								<a href="h#" target="_blank" class="text-dark-75 text-hover-primary">LaLiberty Copyright</a>
+								<a href="h#" target="_blank" class="text-dark-75 text-hover-primary">Binnops Copyright</a>
 							</div>
 							<!--end::Copyright-->
 							<!--begin::Nav-->
