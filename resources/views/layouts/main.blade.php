@@ -23,9 +23,9 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link rel="canonical" href="https://keenthemes.com/metronic" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-		<link rel="apple-touch-icon" sizes="152x152" href="{{ url('assets/images/favicons/apple-touch-icon.png') }}" />
-		<link rel="icon" type="image/png" sizes="32x32" href="{{ url('assets/images/favicons/favicon-32x32.png') }}" />
-		<link rel="icon" type="image/png" sizes="16x16" href="{{ url('assets/images/favicons/favicon-16x16.png') }}" />
+		<link rel="apple-touch-icon" sizes="152x152" href="{{ url('assets/assets/images/favicons/apple-touch-icon.png') }}" />
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ url('assets/assets/images/favicons/favicon-32x32.png') }}" />
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ url('assets/assets/images/favicons/favicon-16x16.png') }}" />
 		<!--end::Fonts-->
 		<!--begin::Global Theme Styles(used by all pages)-->
 		<link href="{{ asset('assets/plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
